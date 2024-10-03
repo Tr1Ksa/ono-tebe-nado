@@ -68,7 +68,7 @@
 .cover {
   position: relative;
   margin: 0px 0px 179px;
-  height: 757px;
+  min-height: 757px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -93,7 +93,6 @@
   margin: auto;
   padding: 165px 50px 138px;
   font-size: 100px;
-  font-style: normal;
   text-transform: uppercase;
   gap: 9px;
   letter-spacing: 0.3em;
@@ -129,7 +128,6 @@
   align-items: center;
   margin: 0px 50px 51px 78px;
   font-size: 22px;
-  font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0px;
@@ -137,13 +135,13 @@
 }
 
 .bet-button {
-  width: 256px;
-  height: 51px;
+  min-width: 256px;
+  min-height: 51px;
   border: 1px solid #FFF;
+  font-family: inherit;
   background-color: rgb(0 0 0/0);
   flex-shrink: 0;
   font-size: 22px;
-  font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
   color: #FFF;
@@ -152,10 +150,8 @@
 .lots {
   position: relative;
   margin: 179px 24px 146px;
-  width: 1052px;
-  height: 692px;
   flex-shrink: 0;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   color: #fff;
   z-index: 1;
 }
@@ -214,7 +210,6 @@
   flex-direction: column;
   justify-content: space-between;
   width: 334px;
-  height: 563px;
   flex-grow: 1;
   margin: 0;
   list-style: none
@@ -256,11 +251,9 @@
 }
 
 .about {
-  margin: 0 24px 180px;
-  width: 1052px;
-  height: 595px;
+  margin: 0 24px 158px;
   flex-shrink: 0;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   color:#000;
 }
 
@@ -292,8 +285,7 @@
 .about-text_part {
   display: flex;
   flex-direction: column;
-  width: 693px;
-  height: 449;
+  max-width: 693px; 
   padding: 101px 0 0 0;
   font-family: Raleway;
 }
@@ -309,7 +301,6 @@
 .about-text {
   display: flex;
   gap: 24px;
-  top: 150px;
   font-size: 20px;
   line-height: 24px;
   text-align: left;
@@ -321,8 +312,8 @@
 .footer {
   display: grid;
   grid-template-columns: 240.52px 149px 240px;
-  margin: 180px 50px 88px;
-  height: 98px;
+  margin: 0px 50px 88px;
+  
   font-family: Raleway;
   color:#000;
   gap: 185px;
@@ -337,10 +328,7 @@
 
 .footer__menu {
   margin: 0;
-  place-content: center;
   list-style: none;
-  width: 149px;
-  height: 64px;
   text-align: center;
   font-weight: 400;
   font-size: 18px;
