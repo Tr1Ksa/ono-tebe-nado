@@ -318,14 +318,17 @@ body {
 }
 
 .about-text {
+  display: flex;
+  gap: 24px;
   top: 150px;
   font-size: 20px;
   line-height: 24px;
   text-align: left;
   font-weight: 400;
   text-wrap: wrap;
+  margin-bottom: 24px;
 }
-
+/*
 .first-paragraph {
   margin-bottom: 1em;
   max-width: 688px;
@@ -339,7 +342,7 @@ body {
   height: 168px;
   line-height: 1.2;
 }
-
+*/
 .footer {
   display: grid;
   grid-template-columns: 240.52px 149px 240px;
