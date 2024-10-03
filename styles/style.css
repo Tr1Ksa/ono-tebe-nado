@@ -1,9 +1,3 @@
-body {
-  font-family: Raleway, sans-serif;
-  font-weight: 400;
-  background-color: #fff;
-}
-
 .content-section {
   box-sizing: border-box;
   width: 100%;
@@ -55,25 +49,20 @@ body {
   align-items: stretch;
   align-content: stretch;
   font-style: normal;
-  
+  line-height: 1.3;
+  text-underline-offset: 3px;
 }
 
 .address__header {
   margin: 5px 28px 2px 185px;
-  padding: 5px 28px 2px auto;
-}
+} 
 
 .address__link {
   display: flex;
   flex-direction: column;
-  row-gap: 0px;*/
-  max-width: 240.52px;
+  row-gap: 0px;
   letter-spacing: 0.18px;
-  text-underline-offset: 3px;
-}
-
-.address__text {
-  line-height: 1.3; 
+  
 }
 
 .cover {
@@ -328,21 +317,7 @@ body {
   text-wrap: wrap;
   margin-bottom: 24px;
 }
-/*
-.first-paragraph {
-  margin-bottom: 1em;
-  max-width: 688px;
-  height: 120px;
-  letter-spacing: 0.005em;
-}
 
-.second-paragraph {
-  padding: 4px 0 0 2px;
-  width: 693px;
-  height: 168px;
-  line-height: 1.2;
-}
-*/
 .footer {
   display: grid;
   grid-template-columns: 240.52px 149px 240px;
@@ -356,12 +331,8 @@ body {
 .address__footer {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  letter-spacing: 0.18px;
-  text-underline-offset: 3px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 135%;
 }
 
 .footer__menu {
