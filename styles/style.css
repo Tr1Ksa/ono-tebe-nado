@@ -18,18 +18,23 @@
   padding: 44px 36px 40px 26.52px;
   justify-content: space-between;
   align-items: stretch;
-  list-style: circle;
   align-content: space-between;
-  list-style-type: none;
-}
-
-.header-link {
-  text-underline-offset: 4px;
-  list-style-type: square;
 }
 
 .header-link-active {
   text-decoration: none;
+}
+
+.header__links-list-item {
+  list-style: circle;
+}
+
+.header-link {
+  text-underline-offset: 4px;
+}
+
+.header__menu-item_no-bullit {
+  list-style-type: none;
 }
 
 .header__logo {
@@ -62,7 +67,6 @@
   flex-direction: column;
   row-gap: 0px;
   letter-spacing: 0.18px;
-  
 }
 
 .cover {
